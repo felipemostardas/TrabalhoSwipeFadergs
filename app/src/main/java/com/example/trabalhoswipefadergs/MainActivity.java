@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         estado = new String[][] {
                 {"Distrito Federal", "Goiás", "Mato Grosso", "Mato Grosso do Sul"},
                 {"Alagoas", "Bahia", "Ceará", "Maranhão", "Paraíba", "Pernambuco", "Piauí", "Rio Grande do Norte", "Sergipe"},
-                { "Acre",  "Amapá", "Amazonas","Pará"," Rondônia", "Roraima", "Tocantins"},
+                {"Acre",  "Amapá", "Amazonas","Pará"," Rondônia", "Roraima", "Tocantins"},
                 {"Paraná","Rio Grande do Sul", "Santa Catarina"},
                 {"Espírito Santo", "Minas Gerais", "Rio de Janeiro", "São Paulo"},
 

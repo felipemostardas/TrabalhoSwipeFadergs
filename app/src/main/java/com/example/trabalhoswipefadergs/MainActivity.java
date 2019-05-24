@@ -29,19 +29,24 @@ public class MainActivity extends AppCompatActivity {
         contadorEstados = 0;
 
         regiao = new String[] {
-                "Sul",
-                "Norte",
-                "Sudeste",
+
+                "Centro-Oeste",
                 "Nordeste",
-                "Centro-Oeste"
+                "Norte",
+                "Sul",
+                "Sudeste"
+
+
         };
 
         estado = new String[][] {
+                {"Distrito Federal", "Goiás", "Mato Grosso", "Mato Grosso do Sul"},
+                {"Alagoas", "Bahia", "Ceará", "Maranhão", "Paraíba", "Pernambuco", "Piauí", "Rio Grande do Norte", "Sergipe"},
+                { "Acre",  "Amapá", "Amazonas","Pará"," Rondônia", "Roraima", "Tocantins"},
                 {"Paraná","Rio Grande do Sul", "Santa Catarina"},
-                { "Acre",  "Amapá", "Amazonas","Pará","Tocantins"," Rondônia", "Roraima"},
-                {"São Paulo", "Rio de Janeiro","Espírito Santo", "Minas Gerais"},
-                {"Maranhão","Piauí", "Ceará","Rio Grande do Norte","Pernambuco"," Paraíba", "Sergipe","Alagoas", "Bahia"},
-                {"Mato Grosso", "Mato Grosso do Sul", "Goiás","Distrito Federal"}
+                {"Espírito Santo", "Minas Gerais", "Rio de Janeiro", "São Paulo"},
+
+
         };
 
         //inicialização
